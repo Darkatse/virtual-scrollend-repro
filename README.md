@@ -6,6 +6,8 @@ target.
 
 Try it: https://virtual-scrollend-repro.darkatse.workers.dev
 
+Reported in https://github.com/TanStack/virtual/issues/1375.
+
 ## Steps
 
 1. Open the page and click **Run**.
