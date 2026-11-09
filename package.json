@@ -1,0 +1,25 @@
+{
+  "name": "virtual-scrollend-repro",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "cf deploy"
+  },
+  "dependencies": {
+    "@tanstack/react-virtual": "3.14.26",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@cloudflare/vite-plugin": "2.0.0-beta.v.12",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.3.0",
+    "cf": "1.0.0-beta.28",
+    "typescript": "^5.9.3",
+    "vite": "^8.3.6"
+  }
+}
